@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ullas — Portfolio</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --ink:#1c2430; --muted:#5b6572;
+    --accent:#2563eb; --dark:#141b26; --card:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.7;
+  }
+  header{background:var(--dark); color:#fff; padding:4rem 1.5rem 3rem; text-align:center}
+  header h1{font-size:2.6rem; letter-spacing:-.5px}
+  header p.tag{color:#aeb8c6; margin-top:.5rem; font-size:1.1rem}
+  nav{margin-top:1.5rem}
+  nav a{color:#cdd6e4; text-decoration:none; margin:0 .9rem; font-size:.95rem}
+  nav a:hover{color:#fff; text-decoration:underline}
+  main{max-width:760px; margin:0 auto; padding:3rem 1.5rem}
+  section{margin-bottom:3rem}
+  h2{font-size:1.4rem; margin-bottom:1rem; padding-bottom:.4rem;
+     border-bottom:2px solid var(--accent); display:inline-block}
+  .card{background:var(--card); border:1px solid #e3e7ee; border-radius:10px;
+        padding:1.25rem 1.4rem; margin-bottom:1rem}
+  .card h3{font-size:1.1rem; margin-bottom:.3rem}
+  .card h3 a{color:var(--accent); text-decoration:none}
+  .card h3 a:hover{text-decoration:underline}
+  .card p{color:var(--muted); font-size:.97rem}
+  .note{color:var(--muted); font-size:.95rem; margin-top:1rem}
+  ul.skills{list-style:none; display:flex; flex-wrap:wrap; gap:.6rem}
+  ul.skills li{background:#e8eefb; color:#1e3a8a; padding:.45rem .95rem;
+               border-radius:999px; font-size:.92rem}
+  .contact a.btn{display:inline-block; background:var(--accent); color:#fff;
+                 padding:.7rem 1.5rem; border-radius:8px; text-decoration:none;
+                 font-weight:600; margin-top:1rem}
+  .contact a.btn:hover{background:#1d4ed8}
+  footer{text-align:center; color:var(--muted); font-size:.85rem; padding:2rem 1rem 3rem}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Ullas</h1>
+  <p class="tag">3rd-semester B.Tech CSE student · building strong fundamentals, one commit at a time</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I'm Ullas, a third-semester B.Tech student in Computer Science and Engineering. I got into programming for the love of problem-solving — there's nothing like the moment a tricky problem finally clicks. Right now I'm building strong fundamentals in C++ and data structures, working toward my goal of earning an internship.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3><a href="https://github.com/ullasgowdad61-tech/hello-world">hello-world</a></h3>
+      <p>Set up VS Code and published my first program using the edit–commit–push workflow.</p>
+    </div>
+
+    <div class="card">
+      <h3><a href="https://github.com/ullasgowdad61-tech/leetcode-solutions">leetcode-solutions</a></h3>
+      <p>Documented C++ solutions to data-structures-and-algorithms problems, with notes on what I learned.</p>
+    </div>
+
+    <p class="note">Also: pair-programming collaboration using GitLens and Live Share — practiced reading a partner's code, thinking out loud while coding, and using version control as a team tool.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>C++</li>
+      <li>Git &amp; GitHub</li>
+      <li>Live Share &amp; GitLens</li>
+      <li>Problem solving &amp; DSA</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>The best place to find me — and everything I've built so far — is on GitHub. I'm always happy to connect with fellow students and builders.</p>
+    <a class="btn" href="https://github.com/ullasgowdad61-tech">Find me on GitHub</a>
+  </section>
+
+</main>
+
+<footer>
+  Ullas · 3rd Semester, B.Tech CSE · Portfolio Building (B25CS0311), Activity 12
+</footer>
+
+</body>
+</html>
